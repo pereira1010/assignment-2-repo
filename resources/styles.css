@@ -1,1 +1,82 @@
-This file contains, SVG files like favicon.svg, page-three.svg, custom.svg and styles.css
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+/* Set default styles for body and html */
+body, html {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: lightblue;
+}
+
+/* Banner with SVG background */
+.banner {
+    background-color: tan;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    height: 300px;
+}
+.banner svg{
+    height: 300px;
+    width: 500px;
+}
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.menu ul li a:hover {
+    color: #ff5733; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Content starts in the middle of the banner */
+.content {
+    padding: 20px; /* Add some padding */
+    color: black;
+    text-align: center;
+}
+.css-question {
+    margin: 5px;
+    padding: 20px;
+    line-height: 2;
+  }
+.js-question {
+    margin: 5px;
+    padding: 20px;
+    line-height: 2;
+}
+table {
+    border: 1px solid;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: tan;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px 0;
+}
