@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Two</title>
-
+    <link rel="stylesheet" href="https://pereira1010.github.io/assignment-2-repo/resources/style.css">
+    <link rel="icon" href="https://pereira1010.github.io/assignment-2-repo/resources/favicon.svg" type="image/svg+xml">
 
 </head>
 <body>
-
+    <!-- Banner section (this part was missing) -->
+    <div class="banner">
     <nav class="menu">
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -16,7 +18,35 @@
             <li><a href="three.html">Page Three</a></li>
         </ul>
     </nav>
+        <svg>
+            <g opacity="0.7">
+                
+                <!-- Car body (back view) -->
+                <rect x="100" y="125" width="300" height="85" fill="green" /> <!-- working on-->
+        
+                <!-- Spoiler -->
+                <rect x="50" y="100" width="400" height="15" fill="black" />
+                <polygon points="150,125 150,115 130,115" fill="black" />
+                <polygon points="350,125 350,115 370,115" fill="black" />
 
+              
+                <!-- Tires -->
+                <rect x="100" y="210" width="55" height="40" fill="black" />
+                <rect x="345" y="210" width="55" height="40" fill="black" />
+              
+                <!-- Lights -->
+                <circle cx="170" cy="155" r="12.5" fill="red" />
+                <circle cx="330" cy="155" r="12.5" fill="red" />
+                <circle cx="130" cy="155" r="15" fill="red" />
+                <circle cx="370" cy="155" r="15" fill="red" />
+        
+                <!-- Text: Go-Kart Racer -->
+                <text x="250" y="240" font-size="24" font-family="Inter, sans-serif" text-anchor="middle" fill="black">Go-Kart Racer!</text>
+            </g>
+        
+        
+        </svg>
+    </div>
     <!-- Content of Page Two -->
     <div class="content">
         <h1>Favorite Coding Resources</h1>
