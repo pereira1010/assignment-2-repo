@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define the square -->
+    <rect x="25" y="25" width="150" height="150" fill="none" stroke="black" stroke-width="2" />
+    
+    <!-- Define the red circle (the "cart") -->
+    <circle cx="0" cy="0" r="10" fill="red">
+        <!-- Animate the circle along the perimeter of the square -->
+        <animateMotion dur="10s" repeatCount="indefinite" path="M 25 25 L 175 25 L 175 175 L 25 175 Z" />
+    </circle>
+</svg>
