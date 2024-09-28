@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the **Multipage static website** project, built on the **HTML** using **SVG**. This project showcases the power of **smart contracts** by enabling users to create and manage crowdfunding campaigns directly on the blockchain. Designed with transparency, security, and flexibility in mind, this platform is ideal for anyone looking to explore decentralized finance (DeFi) and blockchain-based fundraising. Below are the key features of this project:
+Welcome to the **Multipage static website** project, built on the **HTML** using **SVG**. This project showcases the use of html and the integration of svg graphics as a banner and animation. This website also incorporates css styling.
 
 ### Key Features:
 - **HTML website**
